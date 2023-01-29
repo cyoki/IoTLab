@@ -1,3 +1,3 @@
 
 #define SSID "TP-Link"
-#define PASSWORD "1qaz2wsx."
+#define PASSWORD "123456"

@@ -8,16 +8,8 @@ void setup() {
   Serial.begin(115200);
   Serial.printf("Started up\n");
 
-Serial.printf("1111111111111111111111Started up\n");
   WiFi.mode(WIFI_STA);
-
-  Serial.printf("222222222222222Started up\n");
-
-
   WiFi.begin(SSID, PASSWORD);
-
-  Serial.printf("33333333333333Started up\n");
-
   while (WiFi.waitForConnectResult() != WL_CONNECTED)
   {
     Serial.println("Connection Failed! Rebooting...");
