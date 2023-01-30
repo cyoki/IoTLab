@@ -1,0 +1,1 @@
+cmd='/usr/bin/cmake;-DSDKCONFIG=/home/cyoki/Documents/GitHub/IoTLab/lab5/simple_ota_example/sdkconfig;-DIDF_PATH=/home/cyoki/esp-idf;-DIDF_TARGET=esp32;-DPYTHON_DEPS_CHECKED=1;-DPYTHON=/home/cyoki/.espressif/python_env/idf4.2_py3.10_env/bin/python;-DEXTRA_COMPONENT_DIRS=/home/cyoki/esp-idf/components/bootloader;-DLEGACY_INCLUDE_COMMON_HEADERS=;-GNinja;<SOURCE_DIR><SOURCE_SUBDIR>'

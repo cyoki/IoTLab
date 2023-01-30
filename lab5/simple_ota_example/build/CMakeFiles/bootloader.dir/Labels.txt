@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/home/cyoki/Documents/GitHub/IoTLab/lab5/simple_ota_example/build/CMakeFiles/bootloader
+/home/cyoki/Documents/GitHub/IoTLab/lab5/simple_ota_example/build/CMakeFiles/bootloader.rule
+/home/cyoki/Documents/GitHub/IoTLab/lab5/simple_ota_example/build/CMakeFiles/bootloader-complete.rule
+/home/cyoki/Documents/GitHub/IoTLab/lab5/simple_ota_example/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/home/cyoki/Documents/GitHub/IoTLab/lab5/simple_ota_example/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/home/cyoki/Documents/GitHub/IoTLab/lab5/simple_ota_example/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/home/cyoki/Documents/GitHub/IoTLab/lab5/simple_ota_example/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/home/cyoki/Documents/GitHub/IoTLab/lab5/simple_ota_example/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/home/cyoki/Documents/GitHub/IoTLab/lab5/simple_ota_example/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/home/cyoki/Documents/GitHub/IoTLab/lab5/simple_ota_example/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
