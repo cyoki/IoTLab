@@ -11,7 +11,7 @@
      ["Installing the Linux Guest Additions"](https://www.virtualbox.org/manual/ch04.html#additions-linux) and ["Setting up VirtualBox Guest Additions"](https://help.ubuntu.com/community/VirtualBox/GuestAdditions)
 
 <p align="center">
-  <img src="images/fig1.png" width="600" height="300">
+  <img src="img/fig1.png" width="600" height="300">
 </p>
 
 2. [Install VS Code](https://code.visualstudio.com/download)
@@ -44,29 +44,29 @@ The detailed installation of VSCode and PlatformIO can be found in
 1. Click on "PlatformIO" Logo on the side to launch PlatformIO,
 
 <p align="center">
-  <img src="images/fig3.png" />
+  <img src="img/fig3.png" />
 </p>
 
 2. Click on “PlatformIO Home” button on the bottom [PlatformIO Toolbar](https://docs.platformio.org/en/latest/integration/ide/vscode.html#ide-vscode-toolbar)
 
 <p align="center">
-  <img src="images/fig4.png" />
+  <img src="img/fig4.png" />
 </p>
 
 3. Click on “New Project”, select `Espressif ESP32 Dev Module` as the development board, `Espressif IoT Development Framework` or `Arduino` as the framework (based on project) and a path to the project location (or use the default one):
 <p align="center">
-  <img src="images/fig5.png" />
+  <img src="img/fig5.png" />
 </p>
 
 <p align="center">
-  <img src="images/fig6.png" />
+  <img src="img/fig6.png" />
 </p>
 
 4. After the project is created, you need to wait until the the dependecies are
    downloaded and updated.
 
 <p align="center">
-  <img src="images/fig7.png" />
+  <img src="img/fig7.png" />
 </p>
 
 5. Change the platform espressif32 version in `platformio.ini`
@@ -75,7 +75,7 @@ platform = espressif32@4.4.0
 ```
 
 <p align="center">
-  <img src="images/fig8.png" />
+  <img src="img/fig8.png" />
 </p>
 
 
@@ -94,7 +94,7 @@ platform = espressif32@4.4.0
     - Hotkeys `cmd-alt-b / ctrl-alt-b`
 
 <p align="center">
-<img src="images/fig9.png" width="600" height="400"/>
+<img src="img/fig9.png" width="600" height="400"/>
 </p>
 
 7. To upload the firmware to the board we can use the following options:
@@ -111,13 +111,13 @@ platform = espressif32@4.4.0
     - Hotkeys `cmd-alt-u / ctrl-alt-u`
 
 <p align="center">
-<img src="images/fig10.png" width="600" height="400"/>
+<img src="img/fig10.png" width="600" height="400"/>
 </p>
 
 8. Open Serial Monitor to observe the output from the board
 
 <p align="center">
-<img src="images/fig11.png" width="600" height="400"/>
+<img src="img/fig11.png" width="600" height="400"/>
 </p>
 
 9. To start the debug session we can use the following methods:
@@ -128,14 +128,14 @@ platform = espressif32@4.4.0
     - Hotkey button `F5`:
 
 <p align="center">
-<img src="images/fig12.png" width="600" height="400"/>
+<img src="img/fig12.png" width="600" height="400"/>
 </p>
 
 10. Walk through the code using control buttons, set breakpoints, and add
     variables to the `Watch window`
 
 <p align="center">
-<img src="images/fig13.png" width="600" height="400"/>
+<img src="img/fig13.png" width="600" height="400"/>
 </p>
 
 
@@ -219,7 +219,7 @@ cd ~/esp-idf && pip3 install virtualenv && ./install.sh esp32
 
 
 <p align="center">
-<img src="images/fig2.png" width="600" height="400"/>
+<img src="img/fig2.png" width="600" height="400"/>
 </p>
 
 

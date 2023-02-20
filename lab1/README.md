@@ -63,10 +63,8 @@ The picture below gives a closer look at the connections of the IoT kit:
    - Refer to the picture below
    - If the icon does not work, use the alternative apporach at the end of this post
 4. Click the *PlatformIO: Upload* to upload the firmware onto the ESP32 board. 
-   - **Note**: During the uploading process, you may need to **hold down the boot button until the uploading starts**
-   - Refer to the picture below
-   - If the icon does not work, use the alternative apporach at the end of this post
-5. Click the *PlatformIO: Serial Monitor* icon to open the Serial Monitor to see the output from the ESP32 board. 
+   - **Note**: During the uploading process, you may need to **hold down the boot button until the uploading starts**, BOOT (IO0) button is on the right side(Chip on the top side) of ESP32
+
    - Refer to the picture below
    - If the icon does not work, use the alternative apporach at the end of this post
 
@@ -74,8 +72,16 @@ The picture below gives a closer look at the connections of the IoT kit:
   <img src="img/fig4.png" height="500">
 </p>
 
+5. Click the *PlatformIO: Serial Monitor* icon to open the Serial Monitor to see the output from the ESP32 board. 
+   - Refer to the picture below
+   - If the icon does not work, use the alternative apporach at the end of this post
+
 **Alternatively**, Build, Upload and Monitor can be done by clicking on the PlatformIO icon and use Build, Upload and Monitor within PROJECT TASKS as shown below
 
 <p align="center">
   <img src="img/fig5.png" height="500">
 </p>
+
+# Reference
+
+[ESP32 via VS Code and PlatformIO](https://github.com/xinwenfu/tst-dht-lab)
