@@ -1,8 +1,6 @@
 # Lab1: Get started with ESP32 via VS Code and PlatformIO
 
-This project jumps start the use of ESP32 and programming environment. An ESP32 development board is used to read the DHT22 humidity and temperature sensor using a [third party sensor library---esp-idf-lib](https://github.com/UncleRus/esp-idf-lib), which has been installed at ~/esp-idf-lib in our Ubuntu VM.
-
-The hard part is to install the CP210x USB to UART Bridge VCP Drivers and make it work.
+This project jumps start the use of ESP32 and programming environment. An ESP32 development board is used to read the DHT22 humidity and temperature sensor using a [third party sensor library---esp-idf-lib](https://github.com/UncleRus/esp-idf-lib), which has been installed at ~/esp-idf-lib in our Ubuntu VM. The hard part is to install the CP210x USB to UART Bridge VCP Drivers and make it work.
 
 
 ## Set up the IoT kit
@@ -14,7 +12,7 @@ The diagram below shows how the DHT22 temperature and humidity sensor is connect
 </p>
 
 
-The pins layout are on the back of the ESP32 chip:
+The pins layout are on the back of the ESP32 board:
 
 <p align="center">
   <img src="img/fig2.png" height="250">
@@ -30,7 +28,7 @@ The picture below gives a closer look at the connections of the IoT kit:
 ## Install the CP210x USB to UART Bridge VCP Driver
 
 1. **Note**: Don’t start the Ubuntu VM yet, you should install the USB driver
-   and connect the ESP32 first, only after this you can start the Ubuntu VM.
+   and connect the ESP32 first, only after this you can find /dev/ttyUSB0 in the Ubuntu VM.
 
 2. Connect the ESP32 board to your computer via a micro USB cable.
 
@@ -50,6 +48,13 @@ The picture below gives a closer look at the connections of the IoT kit:
 <p align="center">
   <img src="img/fig6.png" height="300">
 </p>
+
+6. If you meet "Permission denied: '/dev/ttyUSB0", remember to add the user into the group dialout so that the user can use ttyusb0
+
+    ```shell
+    sudo usermod -a -G dialout $USER
+    ```
+
 
 **Note**: It appears that the CP210x USB to UART Bridge VCP Driver has quite some issues. Here are troubleshooting tips
 - Make sure the correct micro usb cable is used. The micro usb is like the one used for phones for both data communication and power supply.
