@@ -225,7 +225,7 @@ cd ~/esp-idf && pip3 install virtualenv && ./install.sh esp32
 
 - Use a correct micro USB cable that supports both data transfer and power supply, like the typical smartphone micro USB cable
 - Use a correct USB-serial device such as /dev/ttyUSB0, can use `ls /dev/ttyUSB0` to test if the device connected
-- During connecting to /dev/ttyUSB0, may need to hold the BOOT (IO0) button of the ESP32 until uploading starts
+- During connecting to /dev/ttyUSB0, may need to **hold the BOOT (IO0) button of the ESP32 until uploading starts**
 - Press reset if no output from the serial port
 - If still errors, unplug and re-plug the kit
 - If still errors, change a USB port since different USB ports may provide different power supplies

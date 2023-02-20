@@ -61,6 +61,16 @@ The picture below gives a closer look at the connections of the IoT kit:
 - Try different USB ports on the computer and see which one works. 
 - Sometimes, unplug and plug again the micro usb cable will address the issue.
 
+## Create the project
+
+In this project, you need to create the project based on the figure below, put
+the souce code in the project folder.
+
+<p align="center">
+  <img src="img/fig8.png" height="300">
+</p>
+
+
 ## Build, Upload and Test
 
 1. Start Visual Studio Code. Open *File* -> *Open Folder*. 
