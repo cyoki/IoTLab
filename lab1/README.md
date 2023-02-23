@@ -12,7 +12,7 @@ The diagram below shows how the DHT22 temperature and humidity sensor is connect
 </p>
 
 
-The pins layout are on the back of the ESP32 board:
+The pin layout is on the back of the ESP32 board：
 
 <p align="center">
   <img src="img/fig2.png" height="250">
@@ -27,8 +27,7 @@ The picture below gives a closer look at the connections of the IoT kit:
 
 ## Install the CP210x USB to UART Bridge VCP Driver
 
-1. **Note**: Don’t start the Ubuntu VM yet, you should install the USB driver
-   and connect the ESP32 first, only after this you can find /dev/ttyUSB0 in the Ubuntu VM.
+1. **Note**: Don't start the Ubuntu VM yet. You should install the USB driver and connect the ESP32 first. Only after doing this will you be able to find /dev/ttyUSB0 in the Ubuntu VM.
 
 2. Connect the ESP32 board to your computer via a micro USB cable.
 
@@ -41,15 +40,15 @@ The picture below gives a closer look at the connections of the IoT kit:
 4. After log into the Ubuntu VM, within *Terminal*, run `ls /dev/ttyUSB0` to see ttyUSB0, when the mcro-usb cable of the IoT kit is unplugged from your host computer, ttyUSB0 disappears. 
 
 5. If you cannot find the /dev/ttyUSB0 but you can find it in *Windows Device Manager*,
-   that means you don't connect the USB to VBox successfully, you need to go to
+   it means you haven't successfully connected the USB to VBox. You need to go to
    `Devices -> USB -> USB settings`, add `Silicon Labs CP2102 USB` to the `USB
-   Device Filters`, then turn off the VBox, restart the Ubuntu again.
+   Device Filters`, turn off VBox, and restart Ubuntu again.
 
 <p align="center">
   <img src="img/fig6.png" height="300">
 </p>
 
-6. If you meet "Permission denied: '/dev/ttyUSB0", remember to add the user into the group dialout so that the user can use ttyusb0
+6. If you encounter the error message 'Permission denied: /dev/ttyUSB0,' remember to add the user to the 'dialout' group so that the user can use ttyUSB0
 
     ```shell
     sudo usermod -a -G dialout $USER

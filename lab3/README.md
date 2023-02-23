@@ -244,7 +244,7 @@ Note: By default, *strings* prints out of sequences of characters that are at le
 <!--- ![image](https://user-images.githubusercontent.com/11084018/153796456-47d2c80d-12b8-43b4-8da5-3bd936651614.png) --->
 <img src="img/ram.png">
 
-hex editor (e.g. wxhexeditor) or hex editro website [`hexed.it`](https://hexed.it/) can also be used to search the WiFi credentials in the dump. Please check if */usr/bin/wxHexEditor* and */usr/bin/wxhexeditor* exist on Ubuntu. If needed, the following commands show how to install and configure wxhexeditor.
+hex editor (e.g. wxhexeditor) or a hex editor website like [`hexed.it`](https://hexed.it/) can also be used to search the WiFi credentials in the dump. Please check if */usr/bin/wxHexEditor* and */usr/bin/wxhexeditor* exist on Ubuntu. If needed, the following commands show how to install and configure wxhexeditor.
 ```
 sudo apt-get install wxhexeditor                        # Install wxhexeditor
 sudo ln -s /usr/bin/wxHexEditor /usr/bin/wxhexeditor    # Create a symbolic to use the lowercase command wxhexeditor

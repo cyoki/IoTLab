@@ -13,8 +13,7 @@ We now can perform ethical hack of the IoT kit, try to obtain the WiFi credentia
 
 ## Build and Flash
 
-There are two methods to build and Flash, one is using native esp-idf in [WiFi station example](https://github.com/espressif/esp-idf/tree/master/examples/wifi/getting_started/station), the other is using PlatformIO IDE, we use
-PlatformIO in the project.
+There are two methods to build and Flash, to use the native esp-idf in the [WiFi station example](https://github.com/espressif/esp-idf/tree/master/examples/wifi/getting_started/station), is to use PlatformIO IDE. We use PlatformIO in this project
 
 
 ## Create the project
@@ -58,7 +57,7 @@ sudo ln -s /usr/bin/wxHexEditor /usr/bin/wxhexeditor  #Create a symbolic to use 
 
 
 ## Change the firmware
-The hex editor (e.g. wxhexeditor) or hex editor website (e.g. [hexed.it](https://hexed.it/)) can be used to change the flash dump. The changed flash dump can be flash back to the IoT kit. Another firmware may be written. esptool.py can be used to write the changed firmware back to the ESP32.
+The hex editor (e.g. wxhexeditor) or a hex editor website like (e.g. [hexed.it](https://hexed.it/)) can be used to change the flash dump. The changed flash dump can be flash back to the IoT kit. Another firmware may be written. esptool.py can be used to write the changed firmware back to the ESP32.
 
 ```
 esptool.py write_flash 0 flash_contents_good.bin
@@ -146,15 +145,13 @@ I (10299) wifi station: Failed to connect to SSID:myssid, password:mypassword
 ```
 
 # Troubleshooting
-1. If you meet the error: `'wifi_sta_config_t' {aka 'struct <anonymous>'} has no member named 'sae_pwe_h2e'`, just comment the line out as figure below, this is because in the latest version, they add some new features. 
+1. If you encounter the error message: `'wifi_sta_config_t' {aka 'struct <anonymous>'} has no member named 'sae_pwe_h2e'`, simply comment out the line as shown in the figure below. This is because in the latest version, they have added some new features.
 
 <p align="center">
   <img src="img/fig1.png" height="350">
 </p>
 
-2. To monitor the serial output, you need to press the "EN" button (Left side of
-   the ESP32 board) after you
-   upload the data.
+2. To monitor the serial output, you need to press the "EN" button (located on the left side of the ESP32 board) after uploading the data.
 
 
 # Reference

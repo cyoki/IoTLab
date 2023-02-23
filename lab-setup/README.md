@@ -207,12 +207,10 @@ cd ~/esp-idf && pip3 install virtualenv && ./install.sh esp32
  
 ## Troubleshooting
 
-- If you can't change to the root user in VBox, or its said "xxx is not in the sudoers file. This incident will be reported.", try `su root`, the password is the same password you set during the installation
-- If the VBox screen turns to black, and you cannot wake it up, you can choose
-  from the menu: `View -> Virtual Screen 1 -> Resize to **_ x _**` (choose one you
-  like), then VBox will wake up
-- If you meet the error: "The Python interpreter is not compatible. Reason:
-  Could not find distutils module at ...", please run
+- If you can't change to the root user in VBox, or if it says "xxx is not in the sudoers file. This incident will be reported," try `su root`, the password is the same password you set during the installation
+- If the VBox screen turns black and you cannot wake it up, you can choose from the menu: `View -> Virtual Screen 1 -> Resize to **_ x _**` (choose one you
+  like), and then VBox will wake up
+- If you encounter the error message, "The Python interpreter is not compatible. Reason: Could not find distutils module at ...," please run
   ```shell
   sudo apt-get install python3-venv
   ```
